@@ -19,6 +19,6 @@ install_claude() {
 }
 ```
 - And run
-'''
+```
 install_claude()
-''' 
+``` 
