@@ -23,3 +23,13 @@ install_claude() {
 install_claude()
 ``` 
 - Make sure that the ~/.bash_profile sources ~/.bashrc!
+```
+# ~/.bash_profile
+export PATH="$HOME/edirect:$PATH"
+  
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
+
+if [ -f "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+fi
+```
