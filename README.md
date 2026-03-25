@@ -22,3 +22,4 @@ install_claude() {
 ```
 install_claude()
 ``` 
+- Make sure that the ~/.bash_profile sources ~/.bashrc!
